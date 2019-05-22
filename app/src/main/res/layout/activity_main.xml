@@ -8,10 +8,13 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imgView"
+        android:id="@+id/imgview"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_margin="20dp"
+        android:scaleType="fitCenter"
+
+        android:layout_gravity="center"
         />
 
 
